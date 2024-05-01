@@ -8,7 +8,7 @@ namespace MangoFood.MessageBus
 {
     public class MessageBusService : IMessageBusService
     {
-        private string connectionString = "Endpoint=sb://mangofoodweb.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=PXZq/qtBZOMzhSRj+aP96NbVTUvvRoY1V+ASbC68d3g=";
+        private string connectionString = SD.connectionString;
         public async Task PublishMessage(object message, string topic_queue_Name)
         {
             await using var client = new ServiceBusClient(connectionString);
