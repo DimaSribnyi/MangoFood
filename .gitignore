@@ -32,4 +32,3 @@
 /MangoFood.Services.AuthAPI/appsettings.Development.json
 /MangoFood.Services.AuthAPI/appsettings.Production.json
 /MangoFood.MessageBus/SD.cs
-/MangoFood.MessageBus/MessageBusService.cs
